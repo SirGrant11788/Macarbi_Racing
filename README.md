@@ -1,16 +1,26 @@
 # macarbi_racing
 
-A new Flutter project.
+This is a dart flutter app supporting Android, iOS and Windows*
 
-## Getting Started
+The purpose of the app is to allow quick and easy access to prices and stock amount.
+![](demoAssets/home.gif)
 
-This project is a starting point for a Flutter application.
+The app allows stock to be easily added and removed (set inactive for later refrence), 
+![](demoAssets/add.gif)
+![](demoAssets/delete.gif)
+![](demoAssets/inactive.gif)
 
-A few resources to get you started if this is your first Flutter project:
+Stock quantity to be adjusted by the arrows in the list or by tapping on a product allowing the user to edit all of the products fields.
+![](demoAssets/qty.gif)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Search functionality.
+![](demoAssets/search.gif)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+pull to refresh - manually update inforamtion from the database (if it has not done so automatically).\
+![](demoAssets/refresh.gif)
+
+login and register - to note a user must be logged to be able to register another user, this was upon request. 
+![](demoAssets/login.gif)
+
+To-do noticeboard 
+![](demoAssets/todo.gif)
