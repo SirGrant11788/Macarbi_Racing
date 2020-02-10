@@ -20,7 +20,9 @@ String _search;
 
 //void main() => runApp(MyApp());
 void main() {
+  if(TargetPlatform.android ==false || TargetPlatform.iOS == false){
   debugDefaultTargetPlatformOverride = TargetPlatform.fuchsia;
+  }
   runApp(MyApp());
 }
 
